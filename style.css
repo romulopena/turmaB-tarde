@@ -1,7 +1,9 @@
+/*Seletor Universal*/
 *{
     margin: 0;
     padding: 0;
 }
+/*Cabeçalho*/
 .cabecalho{
     background-color: #B21C1C;
     color: white;
@@ -21,4 +23,25 @@
 .cabecalho-item{
     display: inline-block;
     padding: 0px 30px;
+}
+/*TURMA*/
+.turma{
+    background-image: linear-gradient(#C92626,#c9262636);
+    font-size: 30px;
+    padding: 80px 130px;
+    
+}
+.turma-titulo{
+    padding-bottom: 50px;
+}
+
+.turma-paragrafo1{
+
+}
+.turma-paragrafo2{
+    
+}
+.turma-imagem{
+    width: 300px;
+    
 }
