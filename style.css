@@ -3,7 +3,13 @@
     margin: 0;
     padding: 0;
 }
+/*CORPO DO TEXTO*/
+body{
+    font-family: sans-serif;
+    font-family: 'Inter';
+}
 /*Cabeçalho*/
+
 .cabecalho{
     background-color: #B21C1C;
     color: white;
@@ -14,16 +20,18 @@
 
 }
 
-.cabecalho-imagem{
-    width: 200px;
-    height: 200px;
+.cabecalho-titulo{
+    font-size: 64px;
+    text-decoration: underline;
 
 }
 
 .cabecalho-item{
     display: inline-block;
     padding: 0px 30px;
+    font-weight: bold;
 }
+
 /*TURMA*/
 .turma{
     background-image: linear-gradient(#C92626,#c9262636);
@@ -33,15 +41,41 @@
 }
 .turma-titulo{
     padding-bottom: 50px;
+    text-align: center;
 }
 
-.turma-paragrafo1{
+.turma-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 80px;
+}
 
-}
-.turma-paragrafo2{
-    
-}
 .turma-imagem{
-    width: 300px;
+    width: 349px;
+    height: 240px;
     
+}
+/*SEÇÃO ALUNOS*/
+
+.aluno{
+    display: flex;
+    justify-content: center;
+}
+.aluno-titulo{
+    text-align: center;
+    color: red;
+    font-size: 48px;
+    font-weight: bold; 
+    
+}
+
+.aluno-imagem{
+    width: 224px;
+    height: 154px;
+    
+}
+
+.aluno-icone{
+    width: 45px;
+    height: 42px;
 }
