@@ -34,7 +34,7 @@ body{
 
 /*TURMA*/
 .turma{
-    background-image: linear-gradient(#C92626,#c9262636);
+    background-image: linear-gradient(#C92626,#c9262600);
     font-size: 30px;
     padding: 80px 130px;
     
@@ -58,14 +58,16 @@ body{
 /*SEÇÃO ALUNOS*/
 
 .aluno{
-    display: flex;
-    justify-content: center;
+    background-color: white;
+    text-align: center;
 }
+
 .aluno-titulo{
     text-align: center;
     color: red;
     font-size: 48px;
     font-weight: bold; 
+    padding: 20px 0;
     
 }
 
