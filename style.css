@@ -71,6 +71,15 @@ body{
     
 }
 
+.aluno-div-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.aluno-div{
+    padding: 30px;
+}
+
 .aluno-imagem{
     width: 224px;
     height: 154px;
@@ -80,4 +89,13 @@ body{
 .aluno-icone{
     width: 45px;
     height: 42px;
+}
+
+/*seção rodapé*/
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
 }
